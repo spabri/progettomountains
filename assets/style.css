@@ -1,0 +1,96 @@
+/* :root{
+    --main:#4f3124;
+    --sec:;
+    --acc:;
+    --fontBody:'Hind Madurai';
+    --fontTitle:'Playfair Display'
+
+}
+body {
+    font-family: 'Hind Madurai', sans-serif;
+    font-family: 'Playfair Display', serif;
+    color:white;
+}
+
+.headerImgSpace {
+    width:100vw;
+    height:100vh;
+    overflow: hidden;
+    background: linear-gradient(black,transparent,black), url(/./media/tim-arnold-eQpBGrg3Cp0-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.sfondo{
+    object-fit: contain;
+    object-position: center center;
+}
+@media screen and (min-width:670px){
+    .headerImgSpace{
+        height: 90%;
+    }
+}
+h1{
+    font-size: 4rem;
+    margin:0.25em;
+}
+.headerImgSpace span{
+    font-style: italic;
+}
+
+ */
+
+:root {
+    --main: #4f3124;
+    --fontBody: 'Hind Madurai';
+    --fontTitle: 'Playfair Display';
+}
+
+body {
+    font-family: 'Hind Madurai', sans-serif;
+    color: white;
+    margin: 0;
+    overflow: hidden;
+}
+
+.headerImgSpace {
+    width: 100vw;
+    height: 100vh;
+    
+    overflow: hidden;
+    position: relative;
+
+}
+
+.sfondo {
+    width: 100%; /* 100% della larghezza del contenitore */
+    height: 100%; /* 100% dell'altezza del contenitore */
+    object-fit: cover; /* Scala l'immagine per adattarla senza tagliarla */
+    position:absolute;
+    top: 0;
+    left: 2rem; /* Aggiungi un margine a sinistra */
+    right: 2rem; /* Aggiungi un margine a destra */
+    bottom: 0;
+    object-fit: co
+    z-index:-30;
+    padding-right: 2rem; /* Aggiungi del padding a destra per l'effetto desiderato */
+   
+}
+
+@media screen and (min-width: 670px) {
+    .headerImgSpace {
+        height: 90vh;
+    }
+}
+
+h1 {
+    font-size: 4rem;
+    margin: 0.25em;
+    position:relative;
+    z-index:30
+}
+
+.headerImgSpace span {
+    font-style: italic;
+}

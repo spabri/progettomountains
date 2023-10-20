@@ -70,5 +70,82 @@ setInterval(function(){
     //aggiungi classe current alla slide
     allSlide[current].classList.add('current');
 
-// cambia slide ogni 3 secondi
-},2000)
+// cambia slide ogni 5 secondi
+},5000)
+
+// FRECCETTE**********************************************************
+
+const nextArrow = document.querySelector('.next');
+const previousArrow = document.querySelector('.previous');
+
+
+nextArrow.addEventListener('click', // quando clicco su nextArrow:
+
+        function() {
+         
+        // rimuovo current dalla slide corrente  
+
+        allSlide[current].classList.remove('current');
+
+        //se quando clicco sono sull'ultima slide:
+
+        if (current == allSlide.length - 1) {
+
+        //torna alla slide 0
+
+            current = 0;
+    
+        //altrimenti:
+
+        } else {
+        
+        //Scorri sulla slide succesiva
+            current = current + 1;
+
+        }
+
+        //e infine, aggiungi la classe current alla slide
+
+        allSlide[current].classList.add('current');    
+    }
+
+
+);
+
+
+//Quando clicco su PREVIOUS arrow:
+
+previousArrow.addEventListener('click',
+
+        function() {
+            
+            // rimuovo current dalla slide corrente  
+
+            allSlide[current].classList.remove('current');
+
+            // SE ci troviamo sull'ultima slide, torna alla slide 0
+
+            if (current == allSlide.length - 5) {
+
+                current = allSlide.length - 1            
+            }
+
+            //ALTRIMENTI:
+
+            else {
+            
+            // procedi alla slide precedente
+            
+                current = current -1;
+            } 
+
+            //e infine, aggiungi la classe current alla slide
+
+            allSlide[current].classList.add('current');
+
+        }
+
+)
+
+
+

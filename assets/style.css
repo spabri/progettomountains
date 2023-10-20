@@ -11,10 +11,15 @@ body {
     font-family: 'Playfair Display', serif;
     color:white;
 }
+.bodyContainer{
+    width:100%;
+    margin:0 auto;
+
+}
 
 .headerImgSpace {
     width:100%;
-    height:100%;
+    height:100vh;
     background: linear-gradient(black,transparent,black), url(/./media/tim-arnold-eQpBGrg3Cp0-unsplash.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -23,7 +28,12 @@ body {
 }
 @media screen and (min-width:670px){
     .headerImgSpace{
-        height: 90%;
+        height: 85vh;
+    }
+    .bodyContainer{
+        width:90%;
+        margin:0 auto;
+    
     }
 }
 .navbar-brand{
@@ -40,7 +50,7 @@ nav{
 
 h1{
     font-size: 4rem;
-    margin:0.25em;
+    margin-top:0.25em;
 }
 .headerImgSpace span{
     font-style: italic;

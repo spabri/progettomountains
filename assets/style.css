@@ -1,14 +1,19 @@
 :root{
-    --main:#4f3124;
+    /* --main:#4f3124; */
+    --main:#362219;
     --sec:white;
     --acc:#434532;
-    --fontBody:'Hind Madurai';
-    --fontTitle:'Playfair Display'
+    --fontBody:'Hind Madurai', sans-serif;
+    --fontTitle:'Playfair Display',serif;
 
 }
+::selection {
+    color: white;
+    background: var(--main);
+}
 body {
-    font-family: 'Hind Madurai', sans-serif;
-    font-family: 'Playfair Display', serif;
+    /* font-family: 'Hind Madurai', sans-serif; */
+    font-family: var(--fontTitle);
     color:white;
 }
 .bodyContainer{
@@ -68,6 +73,10 @@ nav{
     border-radius: 0;
 }
 
+
+
+
+/* immagine absolute */
 .imgAbsolute{
     z-index: -1;
     position:absolute;
@@ -96,6 +105,10 @@ nav{
 h1{
     font-size: 3.5rem;
     margin-top:0.25em;
+    transition: transform 250ms ease-in-out;
+}
+h1:hover{
+    transform: translateY(-5px);
 }
 .headerImgSpace span{
     font-style: italic;
@@ -137,7 +150,6 @@ h1{
     position: absolute;
     color: rgba(255, 255, 255, 0.7);
     z-index:5;
-
     height: 50px;
     width: 50px;
     font-size:2rem;
@@ -147,20 +159,37 @@ h1{
 
 .next {
     top: 50%;
-    left: 98%;
+    left: 97.5%;
     transform: translate(-50%, -50%);
+    
+    
+
+}
+.next:hover{
+    left: 98%;
 }
 
 
 .previous {
     top: 50%;
-    left: 2%;
+    left: 2.5%;
     transform: translate(-50%, -50%);
+    
+
+}
+.previous:hover{
+    left:2%;
 }
 .down{
-    bottom: 0%;
+    bottom: 0.5%;
     left:50%;
-    transform: translate(-50%,-50%)
+    transform: translate(-50%,-50%);
+    
+
+    
+}
+.down:hover{
+    bottom:0;
 }
 .next:hover,
 .previous:hover,
@@ -168,8 +197,14 @@ h1{
     color: rgba(255, 255, 255,1);
     cursor: pointer;
 }
+@media screen and (max-width:670px){
+    .previous,.next{
+        display:none;
+    }
+}
 
 /* MAIN */
+
 
 /* SEZIONE CARD QUADRATE */
 
@@ -178,15 +213,40 @@ h1{
     height: 100%;
 }
 .hoverbox-content{
-    opacity:0.8;
+    opacity:0.5;
+    transition: opacity 250ms ease-in-out;
 }
 :hover.hoverbox-content{
     opacity:1;
-    transition: opacity 0.2s ease-in-out;
     
+    
+}
+.hoverbox-primary-content{
+    transition: opacity 250ms ease-in-out;
 }
 
 :hover.hoverbox-primary-content{
     border:solid white 1px;
-    /* transition: border 1s ease-in-out; */
+    
+}
+
+/* SEZIONE TESTO 1 */
+.testo1{
+    color: var(--main);
+}
+
+h3 span{
+    font-style: italic;
+}
+.paragrafo{
+    text-align: justify;
+    font-family: var(--fontBody);
+}
+.btn-outline-dark{
+    border-radius: 0;
+    font-family: var(--fontBody);
+    color:var(--main);
+}
+:hover.btn-outline-dark{
+    background-color: #4f3124;
 }

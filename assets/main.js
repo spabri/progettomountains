@@ -149,3 +149,10 @@ previousArrow.addEventListener('click',
 
 
 
+//SCROLL TO SECTION 1*****************
+
+let scrollToSection1 = document.querySelector("#scrollToSection1")
+
+scrollToSection1.addEventListener("click",()=>{
+    window.location.href = '#section1';
+})

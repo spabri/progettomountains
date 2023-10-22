@@ -32,7 +32,7 @@ body {
     
 
 }
-@media screen and (min-width:670px){
+@media screen and (min-width:576x){
     .headerImgSpace{
         height: 85vh;
     }
@@ -67,7 +67,7 @@ nav{
     position:relative;
     z-index:2
 }
-@media screen and (min-width:670px){
+@media screen and (min-width:768px){
     .show{
         background-color:transparent;
         padding:8px 0px 8px 0px;
@@ -80,7 +80,7 @@ nav{
 .dropdown-menu{
     /* position:relative !important; */
     border-radius:0;
-    background-color: var(--acc);
+    background-color: var(--acc) !important;
     font-size:smaller;
 }
 .dropdown-item{
@@ -319,7 +319,7 @@ h3 span{
     background-repeat:no-repeat;
 
 }
-.background-holder:before{
+/* .background-holder:before{
     background:linear-gradient(rgba(0, 0, 0, 0.401));
     position:absolute;
     content:" ";
@@ -328,4 +328,4 @@ h3 span{
     left:0;
     right:0;
     z-index:1
-}
+} */

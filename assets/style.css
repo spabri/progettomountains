@@ -2,7 +2,8 @@
     /* --main:#4f3124; */
     --main:#362219;
     --sec:white;
-    --acc:#434532;
+    /* --acc:#434532; */
+    --acc: #0C151A;
     --fontBody:'Hind Madurai', sans-serif;
     --fontTitle:'Playfair Display',serif;
 
@@ -56,11 +57,31 @@ nav{
 .nav-link:focus, .nav-link:hover {
     color: var(--sec) !important;
 
-  }
+}
+.navbar-toggler{
+    border:none;
+}
+.show{
+    background-color: var(--acc);
+    padding:8px 0px 8px 2px;
+    position:relative;
+    z-index:2
+}
+@media screen and (min-width:670px){
+    .show{
+        background-color:transparent;
+        padding:8px 0px 8px 0px;
+    position:static;
+    }
+}
+
+
 /* DROPDOWN ITEMS */
 .dropdown-menu{
+    /* position:relative !important; */
     border-radius:0;
     background-color: var(--acc);
+    font-size:smaller;
 }
 .dropdown-item{
 
@@ -106,9 +127,8 @@ nav{
 h1{
     font-size: 3.5rem;
     margin-top:0.25em;
-    /* transition: transform 250ms ease-in-out; */
     opacity: 0;
-    animation: test 1s forwards;
+    animation: test .8s forwards;
 }
 h5{
     opacity: 0;
@@ -196,7 +216,7 @@ h5{
     left:2%;
 }
 .down{
-    bottom: 0.5%;
+    bottom: 7%;
     left:50%;
     transform: translate(-50%,-50%);
     
@@ -204,7 +224,7 @@ h5{
     
 }
 .down:hover{
-    bottom:0;
+    bottom:6.5%;
 }
 .next:hover,
 .previous:hover,
@@ -261,6 +281,7 @@ section{
 .testo1{
     color: var(--main);
 }
+
 
 h3 span{
     font-style: italic;

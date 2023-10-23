@@ -53,7 +53,7 @@
                                     <ul class="navbar-nav me-auto my-2 my-md-0 navbar-nav-scroll"
                                         style="--bs-scroll-height: 500px;">
                                         <li class="nav-item">
-                                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                                         </li>
 
                                         <li class="nav-item dropdown">
@@ -89,19 +89,19 @@
                                     <!-- social e bottone -->
                                     <form class="d-flex flex-md-row flex-column" role="search">
                                         <div class="me-md-2 d-flex justify-content-around my-auto">
-                                            <a class="nav-link mx-2" href="#" role="button"
-                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            <a class="nav-link mx-2" href="#" role="button" data-bs-toggle="dropdown"
+                                                aria-expanded="false">
                                                 <i class="bi bi-facebook"></i>
                                             </a>
-                                            <a class="nav-link mx-2" href="#" role="button"
-                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            <a class="nav-link mx-2" href="#" role="button" data-bs-toggle="dropdown"
+                                                aria-expanded="false">
                                                 <i class="bi bi-instagram"></i>
                                             </a>
-                                            <a class="nav-link mx-2" href="#" role="button"
-                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            <a class="nav-link mx-2" href="#" role="button" data-bs-toggle="dropdown"
+                                                aria-expanded="false">
                                                 <i class="bi bi-twitter-x"></i>
                                             </a>
-                                            
+
 
                                         </div>
                                         <!-- <input class="form-control me-2" type="search" placeholder="Search"
@@ -130,14 +130,14 @@
                                 <i class="bi bi-chevron-right"></i>
                             </div>
                             <div class="down buttons">
-                                <i id="scrollToSection1" class="bi bi-chevron-down" ></i>
+                                <i id="scrollToSection1" class="bi bi-chevron-down"></i>
                             </div>
                         </div>
                     </div>
 
 
 
-                    
+
 
                 </div>
             </div>
@@ -146,79 +146,28 @@
         <!-- main -->
 
         <main>
-            <!-- SEZIONE CARD QUADRATE -->
-            <section class="container-fluid pb-3" id="section1">
-                <div class="row flex-column flex-md-row justify-content-between align-items-center">
-                    <div class="col-10 col-md-4 my-3">
-                        <div class="squared position-relative "href="#">
-                            <img class="img-fluid" src="media/thumb-gallery.jpg" alt="">
-                            <div class="hoverbox-content p-4 position-absolute top-0 left-0 w-100 h-100">
-                                <div class="hoverbox-primary-content d-flex align-items-center justify-content-center h-100">
-                                    <h3>Gallery</h3>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-10 col-md-4 my-3">
-                        <div class="squared position-relative "href="#">
-                            <img class="img-fluid" src="media/thumb-amneities.jpg" alt="">
-                            <div class="hoverbox-content p-4 position-absolute top-0 left-0 w-100 h-100">
-                                <div class="hoverbox-primary-content d-flex align-items-center justify-content-center h-100">
-                                    <h3>Amenities</h3>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-10 col-md-4 my-3">
-                        <div class="squared position-relative "href="#">
-                            <img class="img-fluid" src="media/thumb-packages.jpg" alt="">
-                            <div class="hoverbox-content p-4 position-absolute top-0 left-0 w-100 h-100">
-                                <div class="hoverbox-primary-content d-flex align-items-center justify-content-center h-100">
-                                    <h3>Packages</h3>
-                                </div>
-                            </div>
-                        </div>
+            <div class="container py-5">
+                <div class="row justify-content-center">
+                    <div class="col-12 d-flex justify-content-center mb-5">
+                        <button class=" w-75 btn btn-outline-dark p-3" type="button" data-bs-toggle="offcanvas"
+                            data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">Show
+                            filters</button>
                     </div>
                 </div>
-
-            </section>
-
-            <!-- SEZIONE TESTO 1 -->
-            <section class="testo1 pb-3">
-                <div class="container-fluid ">
-                    <div class="row justify-content-md-between flex-column flex-md-row align-items-center align-items-md-start">
-                        <div class="col-10 col-md-4">
-                            <div class="text-center">
-                                <h3>An <span>inviting</span> escape 
-                                </h3>
-                            </div>
+                <div class="row" id="containerCard">
+                    <!-- QUESTO VERRA MESSO DA JAVASCRIPT -->
+                    <!-- <div class="col-6 col-md-3">
+                        <div class="contenitoreImmagine">
+                            <img src="media/img2.jpg" class="">
                         </div>
-                        <div class="col-10 col-md-8">
-                            <div class="paragrafo">
-                                <p>Crafted with Bootstrap 4, Hideaway is perfectly responsive to every devices available. Thousands of CSS helper classes let you customize this template in any way you want, without writing any code. This is a dummy text that you can change customize as you like with your description. 
-                                </p>
-                            </div>
-                        </div>
-                    
-                    </div>
-                    <div class="row flex-md-row flex-column align-items-center">
-                        <div class="col-md-4">
-                            <!-- spazio vuoto -->
-                        </div>
-                        <div class="col-10 col-md-8 d-flex justify-content-center justify-content-md-start">
-                            <button class="btn btn-outline-dark p-3">Our history</button>
-
-
-
-                        </div>
-                    </div>
+                        <img src="media/img2.jpg" class="img-fluid">
+                        <h2 class="text-dark">Apartments Alpine</h2>
+                        <p class="text-dark">Italy</p>
+                        <p class="text-dark"> € 2500</p>
+                    </div> -->
 
                 </div>
-            </section>
-
-
-
-
+            </div>
 
         </main>
         <footer class="text-center pb-3 position-relative">
@@ -245,16 +194,42 @@
     </div>
 
 
+    <!-- OFFCANVAS************************** -->
 
-    <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+
+    <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1"
+        id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
         <div class="offcanvas-header">
-          <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Backdrop with scrolling</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            <h5 class="offcanvas-title" id="offcanvasScrollingLabel">FILTRI DESTINAZIONI</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
         <div class="offcanvas-body">
-          <p>Try scrolling the rest of the page to see this option in action.</p>
+            <!-- categoria -->
+            <div class="mb-3">
+                <h3>Travel destinations:</h3>
+
+                <div class="form-check" id="inputCategory">
+                    <input class="form-check-input" type="radio" name="travel_destination" id="All" checked>
+                    <label class="form-check-label" for="All">
+                        All the destinations
+                    </label>
+                </div>
+            </div>
+            <!-- prezzo -->
+            <div class="mb-3">
+                <h3>Prices</h3>
+                <label for="customRange1" class="form-label" id="priceValue">Example range</label>
+                <input type="range" class="form-range" id="priceInput">
+            </div>
+            <!-- parola -->
+            <h3>Cerca</h3>
+            <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="Destinazione" aria-label="Username"
+                    aria-describedby="basic-addon1">
+            </div>
         </div>
-      </div>
+    </div>
+    </div>
 
 
     <!-- javascript bootstrap -->
@@ -269,7 +244,7 @@
 
 
     <!-- script personale -->
-    <script src="./assets/main.js"></script>
+    <script src="./assets/booknow.js"></script>
 </body>
 
 </html>

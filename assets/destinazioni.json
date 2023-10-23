@@ -1,0 +1,200 @@
+[
+    {
+        "id": 1,
+        "mountain_name": "Manaslu",
+        "travel_destination": "Peru",
+        "travel_duration": 30,
+        "apartment_name": "Mountain Manor",
+        "apartment_price": 1220.14,
+        "hotel_rating": 4,
+        "landscape_type": "Waterfall",
+        "landscape_photo": "./media/img1.jpg"
+    },
+    {
+        "id": 2,
+        "mountain_name": "Nanga Parbat",
+        "travel_destination": "Canada",
+        "travel_duration": 20,
+        "apartment_name": "Alpine Apartments",
+        "apartment_price": 3004.34,
+        "hotel_rating": 4,
+        "landscape_type": "Mountain Range",
+        "landscape_photo": "media/img2.jpg"
+    },
+    {
+        "id": 3,
+        "mountain_name": "Cho Oyu",
+        "travel_destination": "New Zealand",
+        "travel_duration": 20,
+        "apartment_name": "Alpine Lodge",
+        "apartment_price": 1844.15,
+        "hotel_rating": 1,
+        "landscape_type": "Glacial Lake",
+        "landscape_photo": "media/img3.jpg"
+    },
+    {
+        "id": 4,
+        "mountain_name": "Cho Oyu",
+        "travel_destination": "New Zealand",
+        "travel_duration": 18,
+        "apartment_name": "Snowy Peaks Apartments",
+        "apartment_price": 3742.5,
+        "hotel_rating": 3,
+        "landscape_type": "Valley",
+        "landscape_photo": "media/img4.jpg"
+    },
+    {
+        "id": 5,
+        "mountain_name": "K2",
+        "travel_destination": "Italy",
+        "travel_duration": 13,
+        "apartment_name": "Hillside Homes",
+        "apartment_price": 1972.78,
+        "hotel_rating": 5,
+        "landscape_type": "Waterfall",
+        "landscape_photo": "media/img5.jpg"
+    },
+    {
+        "id": 6,
+        "mountain_name": "Manaslu",
+        "travel_destination": "Norway",
+        "travel_duration": 27,
+        "apartment_name": "Summit Suites",
+        "apartment_price": 2546.97,
+        "hotel_rating": 2,
+        "landscape_type": "Glacier",
+        "landscape_photo": "media/img6.jpg"
+    },
+    {
+        "id": 7,
+        "mountain_name": "Manaslu",
+        "travel_destination": "Nepal",
+        "travel_duration": 10,
+        "apartment_name": "Chalet Retreat",
+        "apartment_price": 4832.79,
+        "hotel_rating": 4,
+        "landscape_type": "Cliff",
+        "landscape_photo": "media/img7.jpg"
+    },
+    {
+        "id": 8,
+        "mountain_name": "Manaslu",
+        "travel_destination": "Japan",
+        "travel_duration": 16,
+        "apartment_name": "Alpine Lodge",
+        "apartment_price": 3884.5,
+        "hotel_rating": 1,
+        "landscape_type": "Mountain Range",
+        "landscape_photo": "media/img8.jpg"
+    },
+    {
+        "id": 9,
+        "mountain_name": "Manaslu",
+        "travel_destination": "Peru",
+        "travel_duration": 26,
+        "apartment_name": "Chalet Retreat",
+        "apartment_price": 1551.58,
+        "hotel_rating": 1,
+        "landscape_type": "Plateau",
+        "landscape_photo": "media/header-1.jpg"
+    },
+    {
+        "id": 10,
+        "mountain_name": "Manaslu",
+        "travel_destination": "Switzerland",
+        "travel_duration": 26,
+        "apartment_name": "Snowy Peaks Apartments",
+        "apartment_price": 2244.86,
+        "hotel_rating": 5,
+        "landscape_type": "Canyon",
+        "landscape_photo": "media/header-2.jpg"
+    },
+    {
+        "id": 11,
+        "mountain_name": "K2",
+        "travel_destination": "Nepal",
+        "travel_duration": 4,
+        "apartment_name": "Alpine Apartments",
+        "apartment_price": 1285.1,
+        "hotel_rating": 4,
+        "landscape_type": "Valley",
+        "landscape_photo": "media/header-3.jpg"
+    },
+    {
+        "id": 12,
+        "mountain_name": "Dhaulagiri",
+        "travel_destination": "Chile",
+        "travel_duration": 30,
+        "apartment_name": "Chalet Retreat",
+        "apartment_price": 3149.34,
+        "hotel_rating": 1,
+        "landscape_type": "Mountain Range",
+        "landscape_photo": "media/header-4.jpg"
+    },
+    {
+        "id": 13,
+        "mountain_name": "K2",
+        "travel_destination": "Norway",
+        "travel_duration": 17,
+        "apartment_name": "Summit Suites",
+        "apartment_price": 1430.77,
+        "hotel_rating": 1,
+        "landscape_type": "Glacier",
+        "landscape_photo": "media/header-5.jpg"
+    },
+    {
+        "id": 14,
+        "mountain_name": "Manaslu",
+        "travel_destination": "Norway",
+        "travel_duration": 23,
+        "apartment_name": "Alpine Lodge",
+        "apartment_price": 4302.63,
+        "hotel_rating": 4,
+        "landscape_type": "Mountain Range",
+        "landscape_photo": "media/altro.jpg"
+    },
+    {
+        "id": 15,
+        "mountain_name": "Nanga Parbat",
+        "travel_destination": "Nepal",
+        "travel_duration": 4,
+        "apartment_name": "Mountain View Residences",
+        "apartment_price": 3509.12,
+        "hotel_rating": 5,
+        "landscape_type": "Canyon",
+        "landscape_photo": "media/thumb-gallery.jpg"
+    },
+    {
+        "id": 16,
+        "mountain_name": "Nanga Parbat",
+        "travel_destination": "New Zealand",
+        "travel_duration": 22,
+        "apartment_name": "Mountain Manor",
+        "apartment_price": 3322.86,
+        "hotel_rating": 3,
+        "landscape_type": "Forest",
+        "landscape_photo": "media/img8.jpg"
+    },
+    {
+        "id": 17,
+        "mountain_name": "Mount Everest",
+        "travel_destination": "Austria",
+        "travel_duration": 5,
+        "apartment_name": "Snowy Peaks Apartments",
+        "apartment_price": 3412.52,
+        "hotel_rating": 3,
+        "landscape_type": "Forest",
+        "landscape_photo": "media/footer-bg.jpeg"
+    },
+    {
+        "id": 18,
+        "mountain_name": "K2",
+        "travel_destination": "Italy",
+        "travel_duration": 22,
+        "apartment_name": "Snowy Peaks Apartments",
+        "apartment_price": 1268.26,
+        "hotel_rating": 1,
+        "landscape_type": "Mountain Range",
+        "landscape_photo": "media/img1.jpg"
+    }
+]
